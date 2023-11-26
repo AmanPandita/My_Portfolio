@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # print("In settings.py in portfolio")
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = "&ho&44^2rpk4cvnv4al)f%$co@q=yujw+k(p!xjunie!1=-2fs"
-print(SECRET_KEY)
+# print(SECRET_KEY)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -35,6 +35,7 @@ ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     'download_resume_pdf',
+    'django.contrib.sites',
     'landingpage',
     'timeline',
     'django.contrib.admin',
